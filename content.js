@@ -1,4 +1,4 @@
-setTimeout(function() {
+setInterval(function() {
   let element = document.querySelector('[href^="https://getadmiral.com"]');
   try {
     if (element) {
@@ -16,4 +16,4 @@ setTimeout(function() {
   } catch (e) {
     console.error('Admiral of Calamity: Exeption Thrown', e);
   }
-}, 1000);
+}, 500);
